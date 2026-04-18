@@ -1,0 +1,32 @@
+# Prompter.AI.Edge (library + tests)
+
+# Build outputs
+**/bin/
+**/obj/
+**/[Dd]ebug*/
+**/[Rr]elease*/
+**/TestResults/
+
+# NuGet packages produced by packing
+**/*.nupkg
+**/*.snupkg
+
+# Visual Studio / tooling
+.vs/
+.vscode/
+.idea/
+
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates
+**/*.VC.db
+**/*.VC.VC.opendb
+
+# Logs
+**/*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+

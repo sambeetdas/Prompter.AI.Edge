@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Prompter.AI.Edge</RootNamespace>
+    <PackageId>Prompter.AI.Edge</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Prompter</Authors>
+    <Description>Reusable offline AI operations library — chat, agent skills, image Q&amp;A — powered by on-device LLM inference via LLamaSharp/llama.cpp. Use anywhere: MAUI, Blazor, WPF, ASP.NET, console.</Description>
+    <PackageTags>AI;LLM;offline;edge;llama;gguf;on-device;prompter</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LLamaSharp" Version="0.26.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.2" />
+  </ItemGroup>
+
+</Project>
